@@ -143,7 +143,7 @@
     <!--whether taking full size effect image in camera-->
     <bool name="is_full_size_effect">true</bool>
     <!--whether support aohdr in camera-->
-    <bool name="support_camera_aohdr">false</bool>
+    <bool name="support_camera_aohdr">true</bool>
     <!--whether support high frame recording in camera-->
     <bool name="support_camera_hfr">true</bool>
     <!--whether support chroma flash in camera-->
@@ -203,7 +203,7 @@
     <!--whether support pre-installed application-->
     <bool name="support_pre_installed_application">true</bool>
     <!--wheater support validate device when syste upadte -->
-    <bool name="support_ota_validate">true</bool>
+    <bool name="support_ota_validate">false</bool>
     <!--whether show basic info items-->
     <bool name="support_show_basic_items">true</bool>
     <!--whether show my device-->
@@ -213,7 +213,7 @@
     <!--wheater support show credentials-->
     <bool name="support_credentials">true</bool>
     <!--whether support main show XiaoAi-->
-    <bool name="support_main_xiaoai">true</bool>
+    <bool name="support_main_xiaoai">false</bool>
     <!--battery capacity typ of the device-->
     <string name="battery_capacity_typ">3400</string>
     <!--the vendor feature, it's value may be qcom,mediatek,leadcore or nvidia-->
@@ -395,7 +395,7 @@
     <!--whether sensor_has_latency-->
     <bool name="sensor_has_latency">true</bool>
     <!--wether support ime xiaoai voice input-->
-    <bool name="surpport_ime_xiaoai_voice">true</bool>
+    <bool name="surpport_ime_xiaoai_voice">false</bool>
     <!-- whether support display gamemode -->
     <bool name="support_displayfeature_gamemode">true</bool>
     <!--These region support face unlock-->
